@@ -7,10 +7,10 @@ A deep learning solution for semantic segmentation of desert terrain, built for 
 
 ## 👥 Team Members
 
-- [Member 1 Name]
-- [Member 2 Name]
-- [Member 3 Name]
-- [Member 4 Name]
+- Tanvi Agarwal
+- Prisha Choithani
+- Ved Kumar Sahu
+- Tanay Gupta
 
 ---
 
@@ -198,6 +198,21 @@ This will:
 | 6 | 10000 | 🟥 Red |
 
 ---
+## Screenshots
+
+<img width="1920" height="1200" alt="Screenshot 2026-02-18 155145" src="https://github.com/user-attachments/assets/46c33720-4566-49b1-a405-88f202b66928" />
+
+---
+<img width="1919" height="1195" alt="Screenshot 2026-02-18 161832" src="https://github.com/user-attachments/assets/87b2f0e2-fb84-4bd6-bb72-ea24b87e427a" />
+
+---
+<img width="1919" height="1199" alt="Screenshot 2026-02-18 204810" src="https://github.com/user-attachments/assets/c2b70cb7-b6ab-4b78-929a-43493eb7b152" />
+
+---
+### Training history
+<img width="1919" height="704" alt="Screenshot 2026-02-18 225204" src="https://github.com/user-attachments/assets/4ea51c7f-c8fb-452c-b82d-124d16a4f7a2" />
+
+---
 
 ## 🔧 Key Technical Decisions
 
@@ -234,24 +249,3 @@ Automatically halves the learning rate when validation loss stops improving, all
 
 ---
 
-## 📦 Output Files
-
-| File | Description |
-|------|-------------|
-| `best_model.pth` | Best trained model weights |
-| `training_history.png` | Loss and mIoU training curves |
-| `prediction_result.png` | Visual segmentation output |
-
----
-
-## 📚 References
-
-- Ronneberger, O., Fischer, P., & Brox, T. (2015). *U-Net: Convolutional Networks for Biomedical Image Segmentation.* MICCAI 2015.
-- Duality AI. (2026). *Falcon Simulation Platform.* https://falcon.duality.ai
-- Kingma, D. P., & Ba, J. (2015). *Adam: A Method for Stochastic Optimization.* ICLR 2015.
-
----
-
-## 📝 License
-
-This project was developed for the **Duality AI Offroad Autonomy Segmentation Hackathon**, 18 February 2026.
