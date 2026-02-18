@@ -183,7 +183,7 @@ This will:
 | 4 | 0.6947 | 0.3441 |
 | 5 | 0.6498 | 0.3535 |
 | 6 | 0.6700 | 0.3713 |
-| 50 | — | **0.4271** |
+| 50 | — | **0.4475** |
 
 ### Class Segmentation Colours
 
@@ -230,22 +230,5 @@ Automatically halves the learning rate when validation loss stops improving, all
 
 ---
 
-## ⚠️ Known Limitations
 
-- CPU-only training significantly limits speed (~5 minutes per epoch)
-- Dataset of 317 validation images is relatively small
-- Class imbalance — some terrain types may appear rarely in images
-- No transfer learning used — encoder trained from scratch
-
----
-
-## 🚀 Future Improvements
-
-1. **GPU Training** — Reduces training time from hours to minutes
-2. **Transfer Learning** — Use ImageNet pretrained ResNet encoder
-3. **Advanced Architecture** — Try DeepLabV3+ or SegFormer
-4. **More Data** — Generate additional synthetic images via Falcon
-5. **Test Time Augmentation** — Average predictions over augmented test images
-
----
 
