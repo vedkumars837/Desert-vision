@@ -26,7 +26,7 @@ This project trains a U-Net neural network to identify and classify 7 terrain ca
 | Total Images | 3,174 (2,857 train + 317 val) |
 | Classes | 7 terrain categories |
 | Metric | Mean IoU (mIoU) |
-| Final mIoU | **0.4271** (CPU Model) |
+| Final mIoU | **0.4475** (CPU Model) |
 
 ---
 
